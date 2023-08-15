@@ -35,7 +35,7 @@ var footer = `
     </div>
     <div class="row justify-content-center">             
         <div class="col-auto">
-            <p>© Copyright 2015 WEBSITE_NAME</p>
+            <p>© Copyright 2015 Mundane Thoughts</p>
         </div>
     </div>
     </div>
@@ -46,12 +46,12 @@ var header = `
         <div class="container">
             <div class="row row-header">
                 <div class="col-12 col-sm-6">
-                    <h1>WEBSITE_NAME</h1>
-                    <p>INFO_TEXT</p>
+                    <h1>Mundane Thoughts</h1>
+                    <p>A collection of my efforts towards ligrothism</p>
                 </div>
-                <div class="col-12 col-sm align-self-center">
-                    <img src="img/logo.png" class="img-fluid">
-                </div>
+                <!-- <div class="col-12 col-sm align-self-center">
+                     <img src="img/logo.png" class="img-fluid">
+                 </div>-->
             </div>
         </div>
     </header>`
@@ -69,13 +69,7 @@ $(document).ready(function(){
             $("#carousel-button").children("span").addClass('fa-pause');                    
         }
     });
-    $("#loginButton").click(function(){
-        $("#loginModal").modal('show');
-    });
     
-    $("#reserveButton").click(function(){
-        $("#reserveModal").modal('show');
-    });
     $("#footerID").append(footer)
     $("#headerID").append(header)
 });
