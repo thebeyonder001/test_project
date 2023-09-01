@@ -67,3 +67,13 @@ color: #0f0f0f;
 
 .modal .modal-footer {
   background: #9575CD; }
+
+  .card-link:hover{
+    cursor:pointer;
+  }
+
+/* .card{
+  background: rgb(2,0,36);
+background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(7,150,187,1) 28%, rgba(8,190,227,1) 48%, rgba(8,190,227,0.9612219887955182) 68%);
+  height: 100px;
+} */
