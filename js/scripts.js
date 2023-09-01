@@ -17,7 +17,7 @@ var footer = `
             <div style="text-align:center">
                 <a class="btn btn-social-icon fas fa-envelope-square" href="mailto:towards.ligrothism@gmail.com"><i class=""></i></a>
                 <a class="btn btn-social-icon fab fa-instagram" href="http://www.instagram.com/towards.ligrothism"><i class="fa fa-instagram"></i></a>
-                <a class="btn btn-social-icon fab fa-youtube" href="http://youtube.com/@towards.ligrothism"><i class="fa fa-youtube"></i></a>
+                <a class="btn btn-social-icon fab fa-youtube" href="http://youtube.com/@TowardsLigrothism"><i class="fa fa-youtube"></i></a>
             </div>
         </div>
     </div>
